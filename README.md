@@ -26,3 +26,38 @@ Para executar o código-fonte na sua máquina usando o Android Studio, siga os p
 1. **Clone este repositório:**
 ```bash
    git clone [https://github.com/GuilhermeRios33/psiapoio.git](https://github.com/GuilhermeRios33/psiapoio.git)
+Acesse a pasta do projeto:
+
+Bash
+   cd psiapoio
+Instale as dependências do Flutter:
+
+Bash
+   flutter pub get
+Execute o aplicativo:
+
+Abra a pasta do projeto no Android Studio.
+
+Inicie o emulador do Android ou conecte o seu smartphone físico com o modo depuração USB ativado.
+
+Clique no botão de "Run" (Play) na barra superior do Android Studio ou execute o comando abaixo no terminal:
+
+Bash
+   flutter run
+📦 Como testar o aplicativo (Baixar o APK)
+Se você deseja apenas testar o aplicativo diretamente no seu celular Android, sem precisar configurar o ambiente de desenvolvimento:
+
+Acesse a seção de Releases deste repositório.
+
+Faça o download do arquivo .apk mais recente.
+
+Transfira o arquivo para o seu dispositivo Android.
+
+Vá em Configurações > Aplicativos > Acesso especial > Instalar apps desconhecidos (o caminho pode variar levemente dependendo do aparelho) e permita a instalação.
+
+Localize o arquivo APK no seu gerenciador de arquivos e toque nele para instalar.
+
+👨‍💻 Autor
+Guilherme Rios, Igor Levy e Pedro Paulo
+
+Desenvolvedor do Projeto
