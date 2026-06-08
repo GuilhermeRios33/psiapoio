@@ -13,8 +13,6 @@ class ClinicDetailsScreen extends StatelessWidget {
     this.distanceText = '',
   });
 
-  // ── Lançadores de app ──────────────────────────────────────────────────────
-
   Future<void> _openMaps(BuildContext context) => _launch(
         context: context,
         deepLink: Uri.parse(
@@ -74,8 +72,6 @@ class ClinicDetailsScreen extends StatelessWidget {
       }
     }
   }
-
-  // ── Build ─────────────────────────────────────────────────────────────────
 
   @override
   Widget build(BuildContext context) {
@@ -144,8 +140,6 @@ class ClinicDetailsScreen extends StatelessWidget {
     );
   }
 }
-
-// ── Card principal ─────────────────────────────────────────────────────────────
 
 class _MainCard extends StatelessWidget {
   const _MainCard({required this.clinic, required this.distanceText});
@@ -249,8 +243,6 @@ class _InfoRow extends StatelessWidget {
   }
 }
 
-// ── Seção genérica ────────────────────────────────────────────────────────────
-
 class _Section extends StatelessWidget {
   const _Section({required this.title, required this.child});
 
@@ -276,8 +268,6 @@ class _Section extends StatelessWidget {
     );
   }
 }
-
-// ── Card de avaliação ─────────────────────────────────────────────────────────
 
 class _ReviewCard extends StatelessWidget {
   const _ReviewCard({required this.review});
@@ -332,8 +322,6 @@ class _ReviewCard extends StatelessWidget {
     );
   }
 }
-
-// ── Barra de ações (rodapé fixo) ──────────────────────────────────────────────
 
 class _ActionBar extends StatelessWidget {
   const _ActionBar({

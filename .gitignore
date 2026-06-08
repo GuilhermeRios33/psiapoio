@@ -43,6 +43,7 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+/android/build/
 
 # Firebase config (contains API keys - do not commit to public repos)
 **/google-services.json
@@ -51,5 +52,13 @@ app.*.map.json
 # Flutter plugins
 .flutter-plugins
 
-# Claude AI
-.claude/
+# Plataformas nao utilizadas
+/ios/
+/linux/
+/macos/
+/windows/
+/web/
+
+# Testes e metadados
+/test/
+.metadata

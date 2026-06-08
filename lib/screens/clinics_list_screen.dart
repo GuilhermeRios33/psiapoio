@@ -253,8 +253,6 @@ class _ClinicsListScreenState extends State<ClinicsListScreen> {
   }
 }
 
-// ── Filter bar ─────────────────────────────────────────────────────────────────
-
 class _FilterBar extends StatelessWidget {
   const _FilterBar({
     required this.topics,
@@ -341,8 +339,6 @@ class _TopicChip extends StatelessWidget {
   }
 }
 
-// ── Empty state ────────────────────────────────────────────────────────────────
-
 class _EmptyFilterResult extends StatelessWidget {
   const _EmptyFilterResult({required this.topic, required this.onClear});
 
@@ -379,8 +375,6 @@ class _EmptyFilterResult extends StatelessWidget {
     );
   }
 }
-
-// ── Clinic card ────────────────────────────────────────────────────────────────
 
 class _ClinicCard extends StatelessWidget {
   const _ClinicCard({
@@ -497,8 +491,6 @@ class _ClinicCard extends StatelessWidget {
   }
 }
 
-// ── Inline topic tag (inside the card) ────────────────────────────────────────
-
 class _InlineTag extends StatelessWidget {
   const _InlineTag({required this.label});
 
@@ -523,8 +515,6 @@ class _InlineTag extends StatelessWidget {
     );
   }
 }
-
-// ── Distance chip ──────────────────────────────────────────────────────────────
 
 class _DistanceChip extends StatelessWidget {
   const _DistanceChip({
