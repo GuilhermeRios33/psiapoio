@@ -58,6 +58,6 @@ Vá em Configurações > Aplicativos > Acesso especial > Instalar apps desconhec
 Localize o arquivo APK no seu gerenciador de arquivos e toque nele para instalar.
 
 👨‍💻 Autor
-Guilherme Rios, Igor Levy e Pedro Paulo
+Guilherme Rios e Pedro Paulo
 
 Desenvolvedor do Projeto
